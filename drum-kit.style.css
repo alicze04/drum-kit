@@ -1,0 +1,44 @@
+body {
+font-family: 'Crete Round', serif;
+font-family: 'Amiri', serif;
+background-image: url("img/audience.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+.keys {
+text-align: center;
+}
+
+.key {
+display: inline-block;
+border:2px solid brown;
+background-color:whitesmoke;
+border-radius:5px;
+margin:10px;
+width:55px;
+height:55px;
+text-align:center;
+margin-top: 150px;
+cursor: pointer;
+transition: all 0.07;
+padding: 5px;
+}
+kbd {
+font-family: 'Crete Round', serif;
+}
+.playing {
+transform:scale(1.2);
+border-color:black;
+box-shadow: 0px 0px 10px rgb(155, 17, 86);
+}
+.sound {
+width: 100%;
+}
+.letters {
+font-size: 1.7rem;
+color:black;
+text-align: center;
+}
